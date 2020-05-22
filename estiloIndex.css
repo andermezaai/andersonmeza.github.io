@@ -6,5 +6,5 @@ body{
     background: #FFFFFF;
     background: -moz-linear-gradient(top, #FFFFFF 0%, #003108 100%);
     background: -webkit-linear-gradient(top, #FFFFFF 0%, #003108 100%);
-    background: linear-gradient(to left, #FFFFFF 0%, #003108 100%);    
+    background: radial-gradient(#FFFFFF 20%, #003108 100%);    
 }
