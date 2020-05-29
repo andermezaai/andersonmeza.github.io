@@ -4,7 +4,7 @@
 
 body
 {    
-    
+    flex-shrink:1;
     background-repeat: no-repeat;
     margin: 0 0;
 }
@@ -61,8 +61,8 @@ header .logo
 
 .centralArea-content img
 {
-    height: 507px;
-    width: 507px;
+    height: 35%;
+    width: 35%;
 }
 
 footer
@@ -72,10 +72,12 @@ footer
     margin-bottom: 0px;    
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer div
-{
+{    
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
 }
