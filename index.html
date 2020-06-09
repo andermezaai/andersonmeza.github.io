@@ -1,51 +1,61 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anderson Meza</title> 
-    <link rel="stylesheet" href="estiloIndex.css">
-    <link rel="icon" type="image.png" href="LogoSinFondo.png">
-</head>
-<body>    
-        <header>
-            <div class="logo-content">
-                <img class="logo" src="LogoSinFondo.png" alt="logo Anderson Meza">
-                <p><a href="https://www.andersonmeza.com">Anderson Meza</a></p>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Anderson Meza</title>
+        <link rel="icon" type="image/png" href="LogoSinFondo.png"/>
+        <link rel="stylesheet" href="estiloIndex.css">
+    </head>
+    <body>
+        <header >
+            <div>
+                <div>
+                    <figure>
+                        <img class="logo" loading="lazy" src="LogoSinFondo.png" alt="logo"/>
+                    </figure>
+                    <h1>Anderson Meza</h1>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li class="nav-option">
+                            <a href="#portafolio">PORTAFOLIO</a>
+                        </li>
+                        <li class="nav-option">
+                            <a href="#tecnologias">TECNOLOGÍAS</a>
+                        </li>
+                        <li class="nav-option">
+                            <a href="#experiencia">EXPERIENCIAS</a>
+                        </li>                        
+                        <li class="nav-option">
+                            <a href="#contacto">TRABAJEMOS JUNTOS</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        <div class="sections">            
-        </div>
-    </header>
-    <div class="centralArea-content">
-        <H3>Sitio en construcción</H3>
-        <figure class="imagen-content">
-            <img class="image" src="LogoSinFondo.png" alt="logo Anderson Meza" >
-        </figure>
-    </div>  
-    <footer>
-        <div class="networks">
-            <a href="https://web.facebook.com/Anderson-Meza-105718284497085/" class="facebook">
-               <img src="data:image/png;base64,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" alt="">
-            </a>
-            <a href="https://www.instagram.com/meza_anderson/" class="instagram">
-                <img src="https://teamdarkpirates.com/wp-content/uploads/2019/08/Instagram-icono.png" alt=""></a>
-            <a href="https://twitter.com/meza_anderson_?s=08" class="twiter">
-                <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-twitter-gris-png-5.png" alt=""></a>
-            </a>
-            <a href="https://www.linkedin.com/in/anderson-meza-cando-28a4401aa" class="linkedin">
-                <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-linkedin-png-blanc-3.png" alt=""></a>
-            </a>
-            <a href="https://github.com/AndersonMeza" class="hithub">
-                <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" alt=""></a>
-            </a>
-        </div>
-        <div class="copyright">
-            <p>Copyright © </p>
-            <a href="https://www.andersonmeza.com">andersonmeza.com 2020</a>
-        </div>
-        <div class="spaceRigth">
-            
-        </div>
-    </footer>          
-</body>
+        </header>
+        <section class="Banner">
+            <figure>
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="imagen fondo">
+            </figure>
+            <div class="Description">
+                <div>
+                    <h1>Hola soy Anderson Meza <br> 
+                        <strong>Desarrollador</strong> de <strong>Software</strong> y <br>
+                        Estudiante de <strong>Ingeniería</strong>
+                    </h1>
+                    <h3>
+                        Apasionado por IA y Data Science!
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <section id="portafolio">
+            <div>
+                <h1>Portafolio y Proyectos Destacados</h1>
+                <div>
+                    
+                </div>
+            </div>
+        </section>
+    </body>
 </html>

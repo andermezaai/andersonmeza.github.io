@@ -1,121 +1,114 @@
-.image{
-    height: 500px;
+/******** GEBERALES*********/
+
+a{
+    text-decoration: white;
+    font-family: 'Noto Sans', sans-serif;
 }
 
-body
-{    
-    flex-shrink:1;
-    background-repeat: no-repeat;
-    margin: 0 0;
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+/*********CUERPO**********/
+body{
+    margin: 0px;
 }
 
 
-header,footer
-{
-    background-color:#a7a6a61c;        
+/**********HEADER*********/
+header{    
+    background: rgba(53,55,60,0.7); 
+    color: #ffffff;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
 }
 
-header
-{
-    height: 60px;
-    margin-top: 0px;    
-    display: flex;
-    justify-content: space-between;    
-}
-
-header .logo-content
-{
-    padding-left: 10px;
+header div{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.nav-option{
+    padding:10px 10px;
+    display: inline-block;
+    list-style-type: none;
+    color: white;    
+}
+
+header a{
+    color: white;
+    font-size: 12px;
+}
+
+.logo{
+    width: 50px;
+}
+
+nav{    
+    margin: 0px 20px;
     
 }
 
-header .logo-content p a
-{
+/********BANNER********/
+.Banner{    
+    position: relative;
+    max-height: 658px;
+    overflow: hidden;
+}
+
+.Banner figure{    
+    margin: 0;
+}
+
+.Banner figure img{
+    width: 100%;
+}
+
+.Description{
+    top: 0;
+    position:absolute;
+    width: 100%;
+    height: 658px;
+    background: -moz-linear-gradient(left, #000000aa 10%, rgba(197, 209, 198, 0.133) 55%);
+    background: #000000;
+    background: -webkit-linear-gradient(left, #000000aa 10%,rgba(197, 209, 198, 0.133) 55%);
+    background: linear-gradient(to right, #000000aa 10%, rgba(197, 209, 198, 0.133) 55%);
+}
+
+.Description div{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.Description h1{
+    font-size: 40px;
+    color: white;
+    line-height: 55px;    
+}
+
+.Description h3{
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    text-decoration: none;      
-    padding-left: 20px;
-    text-transform: uppercase;
+    color: white;    
 }
 
-header .logo
-{
-    width: 40px;
-    height: 40px;
+.Description strong{
+    padding: 0px 5px;
+    background-color: #00bb1f;
+    border-radius: 5px;
 }
 
-.centralArea-content figure, .centralArea-content h3
-{
+/********Potafolio**********/
+
+#portafolio{
+    width: 100%;
+}
+
+#portafolio div{
     display: flex;
-    justify-content: center;
-}
-
-.centralArea-content h3
-{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-}
-
-.centralArea-content img
-{
-    height: 35%;
-    width: 35%;
-}
-
-footer
-{
-    color: black;
-    height: 70px;    
-    margin-bottom: 0px;    
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-footer div
-{    
-    flex-wrap: wrap;
-    display: flex;
+    flex-direction: column;
     align-items: center;
-}
-
-
-footer div a
-{
-    color: black;
-    text-decoration: none;
-    margin-bottom: 0;
-    padding-bottom: 10px; 
-    margin-top: 16px;
-}
-
-footer p
-{
-    margin-bottom: 0;
-    padding-bottom: 10px;    
-}
-
-.networks,.spaceRigth
-{
-    width: 250px;
-}
-
-.networks a img
-{
-    width:30px;
-    height: 30px;
-    margin-left: 20px;
-}
-
-.copyright
-{    
-    margin-left: 20px;
-}
-
-.copyright a
-{
-    margin-left: 10px;
+    justify-content: space-around;
 }
