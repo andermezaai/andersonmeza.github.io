@@ -209,13 +209,17 @@ nav{
 }
 
 #tecnologias figure{
-    margin: 0px 100px;
-    margin-bottom: 40px;
+    margin: 0px 70px;
+    margin-bottom: 70px;
 }
 
 #tecnologias p{
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+
+#tecnologias img{
+    width: 90px;
 }
 
 /************FOOTER**********/
@@ -251,3 +255,76 @@ nav{
     text-align: center;
     padding-bottom: 10PX;
 }
+
+/*************CONTACTO************/
+
+#contacto{
+    width: 100%;
+    background-color: #00bb1f;
+}
+
+.contacto-contenedor{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contacto-contenedor h1{
+    margin: 0;
+    padding: 50px 0px;
+    color: white;    
+}
+
+.contacto-contenedor h2{
+    padding-top: 30px;
+    color: #00bb1f;
+}
+
+.contacto-contenedor .llenar{        
+    display: inline-block;
+    background-color:white;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.contacto-contenedor div form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:10px 10px;
+    text-align: center;
+}
+
+#inNombre, #inApellido, #inCorreo{    
+    width: 400px;
+    height: 40px;
+    margin: 20px 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: solid 1px #ccc;
+    color: #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#inCorreo{
+    text-align: center;
+}
+
+.contacto-contenedor label{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #aaa;
+    margin: 5px 0px;
+}
+
+.contacto-contenedor .button{
+    height: 40px;
+    padding: 0px 30px;
+    margin: 30px 0px;
+    border-radius: 5px;
+    background-color: #00bb1f;
+    border: solid 1px #ccc;
+    color: white;    
+    font-weight: bold;
+    cursor: pointer;
+}
+
