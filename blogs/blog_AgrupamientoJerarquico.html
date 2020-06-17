@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{<!DOCTYPE html>
 <html lang="es">
     <head>
         <meta charset="UTF-8" />
@@ -54,17 +54,17 @@
                 </figure>
                 <div class="informacion">
                     <p>
-                        El <strong>clustering jerárquico</strong> es una forma de <strong>agrupamiento</strong> de “casos” que forma parte de los algoritmos de machine learning. Su función es juntar caso con el más <strong>similar</strong> de dos en dos formando clusterings o grupos. En el siguiente paso hará lo mismo hasta que finalmente termine con un solo <strong>cluster</strong>.
+                        El <strong>clustering jerárquico</strong> es una forma de <strong>agrupamiento</strong> de “casos” que forma parte de los algoritmos de machine learning. Su función es ir uniendo "casos" (que son entidades con características numéricas) con el más <strong>similar</strong> de dos en dos formando clusterings o grupos. En el siguiente paso hará lo mismo hasta que finalmente termine con un solo <strong>cluster</strong>.
                     </p>                    
                     <p>
                         En este blog mostraré mi <strong>implementación</strong> de este algoritmo en <strong>Python</strong> junto con la librería <strong>Bokeh</strong> para realizar el gráfico correspondiente.
                     </p>
                     <hr width=400>
                     <p>
-                        El ejemplo que podemos tomar es el hecho de que tomamos un grupo de personas las cuales tienen <strong>características</strong> definidas en este caso por números. Es decir, podríamos tomar las cualidades de jugadores de videojuego FIFA. Donde cada jugador tiene ritmo, velocidad, tiro,etc. Vamos a tomar esto como sus características.
+                        El ejemplo que podemos tomar es un grupo de personas las cuales tienen <strong>características</strong> definidas en este caso por números. Es decir, podríamos tomar las cualidades de jugadores del videojuego FIFA. Donde cada jugador tiene ritmo, velocidad, tiro,etc. Vamos a tomar esto como sus características.
                     </p>
                     <p>
-                        Cada jugador tiene un <strong>valor</strong> en cada característica, por lo que el algoritmo ahora podrá encontrar los jugadores que sean mas similares y los puede ir agrupando. Lo asombroso de esto es que puede llegar <strong>agrupar a los jugadores por su posición sin que nosotros le hayamos dado dicha información de cada jugador</strong>.
+                        Cada jugador tiene un <strong>valor</strong> en cada característica, por lo que el algoritmo ahora podrá encontrar los jugadores que sean mas similares y los puede ir agrupando. Lo asombroso de esto es que puede llegar <strong>agrupar a los jugadores por su posición sin que nosotros le hayamos dado dicha información</strong>.
                     </p>
                     <p>
                         Como en este tipo de ejercicios se lo puede utilizar para muchos más, otro ejemplo que me encanta es el hecho de que puede ser de gran ayuda al momento de <strong>agrupar a los seres vivos por su árbol genealógico</strong> simplemente viendo las similitudes dentro de la información genética.
@@ -73,13 +73,13 @@
                         <img src="https://centroderecursos.educarchile.cl/bitstream/handle/20.500.12246/52641/articles-94357_imagen_0.gif?sequence=1&isAllowed=y" alt="">
                     </figure>
                     <p>
-                        En el caso de el algoritmo que se logró implementar se toma el número de <strong>“dimensiones”</strong> que representan al número de características que tendría un “caso”, para luego pedirle al usuario el rango de cada algoritmo y por último el número de casos que creará (aleatoriamente para poder modelar el proceso.
+                        En el caso de el algoritmo que se logró implementar se toma el número de <strong>“dimensiones”</strong> que representan al número de características que tendría un “caso”, para luego pedirle al usuario el rango de cada dimensión y por último el número de "casos" o "entidades" que creará (esta vez será aleatoriamente para poder modelar el proceso).
                     </p>
                     <p>
-                        El algoritmo se encuentra en mi repositorio de Git Hub: <a href="https://github.com/AndersonMeza/Agrupamiento-Jer-rquico/blob/master/agrupamiento_gerarquico.py">https://github.com/AndersonMeza/Agrupamiento-Jer-rquico/blob/master/agrupamiento_gerarquico.py</a> y lo pueden descargar en este enlace: <a href="https://github.com/AndersonMeza/Agrupamiento-Jer-rquico/archive/master.zip">descargar</a>. Es recomendable intalar un ambiente virtual y es necesario instalar la librería 'bokeh' para realizar los gráficos.
+                        El algoritmo se encuentra en mi repositorio de GitHub: <a href="https://github.com/AndersonMeza/Agrupamiento-Jer-rquico/blob/master/agrupamiento_gerarquico.py">https://github.com/AndersonMeza/Agrupamiento-Jer-rquico/blob/master/agrupamiento_gerarquico.py</a> y lo pueden descargar en este enlace: <a href="https://github.com/AndersonMeza/Agrupamiento-Jer-rquico/archive/master.zip">descargar</a>. Es recomendable instalar un ambiente virtual y es necesario instalar la librería 'bokeh' para realizar los gráficos.
                     </p>
                     <p>
-                        Esto presentará en consola los n primeros casos seguido de los siguientes clousters formados hasta que presentar el cluster general con sus respectivas “dimensiones”.
+                        Esto presentará en consola los n primeros casos seguido de los siguientes clousters formados hasta presentar el último cluster general con sus respectivas “dimensiones”.
                     </p>
                     <pre>
 Especifique su mapa
@@ -141,7 +141,7 @@ Número de puntos: 20
                         </script>
                     </div>
                     <p>
-                        Una vez entiendas este tipo de algoritmos. ¿Podrías saber en que más campos, problemas o ejercicios podemos utilizarlo? Puedes averiguar un poco más de estos algoritmos de agrupamiento en <a href="https://scikit-learn.org/stable/user_guide.html">scikit learn </a> 
+                        Una vez entiendas este tipo de algoritmos. ¿Sabrías en que más campos, problemas o ejercicios podemos utilizarlo? Puedes averiguar un poco más de estos algoritmos de agrupamiento en <a href="https://scikit-learn.org/stable/user_guide.html">scikit learn </a> 
                     </p>
                 </div>
             </div>
