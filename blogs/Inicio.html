@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" /> 
+        <script src="https://smtpjs.com/v3/smtp.js"></script> 
+        <script src="../script-email.js"></script>               
+        <title>Anderson Meza</title>
+        <link rel="icon" type="image/png" href="../Imagenes/LogoSinFondo.png"/>
+        <link rel="stylesheet" href="estiloInicio.css">
+    </head>
+    <body>
+        <header >
+            <div>
+                <div>
+                    <figure>
+                        <img class="logo" loading="lazy" src="../Imagenes/LogoSinFondo.png" alt="logo"/>
+                    </figure>
+                    <h1>Anderson Meza</h1>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li class="nav-option">
+                            <a href="https://www.andersonmeza.com">HOME</a>
+                        </li>
+                        <li class="nav-option">
+                            <a href="https://www.andersonmeza.com#portafolio">PORTAFOLIO</a>
+                        </li>
+                        <li class="nav-option">
+                            <a href="https://www.andersonmeza.com#tecnologias">TECNOLOGÍAS</a>
+                        </li>
+                        <li class="nav-option">
+                            <a href="https://www.andersonmeza.com/blogs/Inicio.html">BLOGS</a>
+                        </li>                        
+                        <li class="nav-option">
+                            <a href="#contacto">TRABAJEMOS JUNTOS</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>        
+        <section class="contenedor-blogs">
+            <h1>BLOGS</h1>
+            <div class="lista">
+                <div class="blog-content" href=>
+                    <a href="https://www.andersonmeza.com/blogs/blog_AgrupamientoJerarquico.html">
+                        <div class="blog">
+                            <figure>
+                                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1002&q=80" alt="imagen computador">
+                            </figure>
+                            <h2>CLUSTERING JERÁRQUICO</h2>
+                        </div>
+                    </a>                                                            
+                </div>
+            </div>
+            
+
+            
+        </section>
+        <section id="contacto">     
+            <div class="contacto-contenedor">
+                <h1>Contáctame para mas información</h1>
+                <div class="llenar">
+                    <h2>LLena tus datos</h2>
+                    <form action="">
+                        <div>
+                        <input id="inNombre" type="text" placeholder="Nombres">
+                        <input id="inApellido" type="text" placeholder="Apellidos">
+                        <input id="inCorreo" type="email" placeholder="Correo Electrónico">
+                        </div>                        
+                        <label>Una vez envies tu información te contactaré lo antes posible</label>
+                        <input class="button" type="button" value="Enviar" onclick="sendEmail()">                        
+                    </form>
+                </div>
+            </div>       
+        </section>
+        <footer class="footer">
+            <div class="redes">
+                <a href="https://www.facebook.com/Anderson-Meza-105718284497085/?_rdc=1&_rdr"><figure><img src="https://i.imgur.com/v5yzt9f.png" alt="facebook"></figure></a>
+                <a href="https://twitter.com/meza_anderson_?s=08https://twitter.com/meza_anderson_?s=08"><figure><img src="https://i.imgur.com/uSodREQ.png" alt="twitter"></figure></a>
+                <a href="https://www.linkedin.com/in/anderson-meza-cando-28a4401aa/"><figure><img src="https://pngimage.net/wp-content/uploads/2018/06/logo-linkedin-png-blanc-3.png" alt="linkedin"></figure></a>
+                <a href="https://www.instagram.com/meza_anderson/"><figure><img src="https://i.imgur.com/J0ajeh9.png" alt="instagram"></figure></a>
+                <a href="https://github.com/AndersonMeza"><figure><img src="../Imagenes/iconoGitHub.png" alt="github"></figure></a>
+            </div>
+            <p>© Todos los derechos reservados</p>
+        </footer>        
+    </body>
+</html>

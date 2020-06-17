@@ -1,0 +1,215 @@
+/******** GEBERALES*********/
+
+a{
+    text-decoration: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+/*********CUERPO**********/
+body{
+    margin: 0px;   
+    background-color: #f7f7f7;    
+}
+
+
+/**********HEADER*********/
+header{    
+    background: #35373C;
+    color: #ffffff;
+    width: 100%;    
+    
+}
+
+header div{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-option{
+    padding:10px 10px;
+    display: inline-block;
+    list-style-type: none;
+    color: white;    
+}
+
+header a{
+    color: white;
+    font-size: 12px;
+}
+
+.logo{
+    width: 50px;
+}
+
+nav{    
+    margin: 0px 20px;
+    
+}
+
+/************BLOGS*****************/
+
+.contenedor-blogs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+    align-items: center;
+    width: 100%;    
+}
+
+.lista{
+    justify-content: center;
+    width: 90%;
+    display: flex;    
+    flex-wrap: wrap;
+    min-width: 750px;
+}
+
+.contenedor-blogs h1{
+    font-size: 30px;
+}
+
+.blog-content a{
+    display: block;
+    color: #626364;
+}
+
+.blog-content{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;        
+    margin: 20px;
+}
+.blog{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 18px 2px rgba(173,173,173,1);
+    width: 400px;
+}
+
+.blog h2{
+    padding-bottom: 20px;
+}
+.blog-content img{   
+    margin-top: 20px;
+    border-radius: 10px; 
+    overflow: hidden;
+    width: 90%;
+}
+
+
+
+
+/*************CONTACTO************/
+
+#contacto{
+    width: 100%;
+    background-color: #00bb1f;
+}
+
+.contacto-contenedor{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contacto-contenedor h1{
+    margin: 0;
+    padding: 50px 0px;
+    color: white;    
+}
+
+.contacto-contenedor h2{
+    padding-top: 30px;
+    color: #00bb1f;
+}
+
+.contacto-contenedor .llenar{        
+    display: inline-block;
+    background-color:white;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.contacto-contenedor div form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:10px 10px;
+    text-align: center;
+}
+
+#inNombre, #inApellido, #inCorreo{    
+    width: 400px;
+    height: 40px;
+    margin: 20px 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: solid 1px #ccc;
+    color: #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#inCorreo{
+    text-align: center;
+}
+
+.contacto-contenedor label{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #aaa;
+    margin: 5px 0px;
+}
+
+.contacto-contenedor .button{
+    height: 40px;
+    padding: 0px 30px;
+    margin: 30px 0px;
+    border-radius: 5px;
+    background-color: #00bb1f;
+    border: solid 1px #ccc;
+    color: white;    
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/************FOOTER**********/
+.footer{
+    background: #35373C;    
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.redes figure{
+    background: #303136;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.redes figure img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer p{
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10PX;
+}
+
+

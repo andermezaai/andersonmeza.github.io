@@ -12,13 +12,13 @@ h1, h2, h3, h4, h5, h6{
 
 /*********CUERPO**********/
 body{
-    margin: 0px;
+    margin: 0px;    
 }
 
 
 /**********HEADER*********/
 header{    
-    background: rgba(53,55,60,0.7); 
+    background: #35373CBB;
     color: #ffffff;
     width: 100%;
     position: absolute;

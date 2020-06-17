@@ -1,0 +1,256 @@
+/******** GEBERALES*********/
+
+a{
+    text-decoration: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+/*********CUERPO**********/
+body{
+    margin: 0px;
+    background-color: #f7f7f7;
+}
+
+
+/**********HEADER*********/
+header{    
+    background: #35373C;
+    color: #ffffff;
+    width: 100%;        
+}
+
+header div{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-option{
+    padding:10px 10px;
+    display: inline-block;
+    list-style-type: none;
+    color: white;    
+}
+
+header a{
+    color: white;
+    font-size: 12px;
+}
+
+.logo{
+    width: 50px;
+}
+
+nav{    
+    margin: 0px 20px;
+    
+}
+
+/***********BLOG**************/
+.blog
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;    
+}
+
+.blog-general{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-width: 700px;
+    overflow: hidden;
+}
+
+.blog-general h1{
+    display: block;
+    max-width: 80%;
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: -webkit-xxx-large;
+    margin-bottom: 0px;
+    color: #35373C;
+}
+
+.blog-general p{
+    font-family: "Raleway",sans-serif;
+    color: #707070;
+}
+
+.perfil
+{
+    border-radius: 20px;
+    width:60px;
+    overflow: hidden;
+    margin-bottom: 0;    
+}
+
+.perfil img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.imagen_referente{
+    margin-top: 0;
+    width: 80%;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.imagen_referente img{
+    margin: 0;
+    padding: 0;
+    width: 100%;    
+}
+/***********INFORMACION********/
+.informacion{
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;
+    width: 70%;    
+}
+
+.informacion figure{
+    width: 80%;
+}
+
+.informacion figure img{
+    width: 100%;
+}
+
+.informacion p{
+    width: 100%;
+    text-align: justify;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.informacion pre{    
+    width: 100%;    
+    background-color: black;
+    color: white;
+    text-align: left;
+    overflow:scroll;
+}
+
+.informacion a,.informacion strong{
+    color: #00bb1f;
+}
+/************FOOTER**********/
+.footer{
+    background: #35373C;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.redes figure{
+    background: #303136;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.redes figure img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer p{
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10PX;
+}
+
+/*************CONTACTO************/
+
+#contacto{
+    width: 100%;
+    background-color: #00bb1f;
+}
+
+.contacto-contenedor{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contacto-contenedor h1{
+    margin: 0;
+    padding: 50px 0px;
+    color: white;    
+}
+
+.contacto-contenedor h2{
+    padding-top: 30px;
+    color: #00bb1f;
+}
+
+.contacto-contenedor .llenar{        
+    display: inline-block;
+    background-color:white;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.contacto-contenedor div form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:10px 10px;
+    text-align: center;
+}
+
+#inNombre, #inApellido, #inCorreo{    
+    width: 400px;
+    height: 40px;
+    margin: 20px 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: solid 1px #ccc;
+    color: #aaa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#inCorreo{
+    text-align: center;
+}
+
+.contacto-contenedor label{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #aaa;
+    margin: 5px 0px;
+}
+
+.contacto-contenedor .button{
+    height: 40px;
+    padding: 0px 30px;
+    margin: 30px 0px;
+    border-radius: 5px;
+    background-color: #00bb1f;
+    border: solid 1px #ccc;
+    color: white;    
+    font-weight: bold;
+    cursor: pointer;
+}
+
